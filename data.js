@@ -1,7 +1,7 @@
 const slidesData = [
     {
         title: "What Are Text-to-Image Models?",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Introduction and Background_01.png",
         content: [
             "Definition: AI systems that convert textual descriptions into visual representations.",
             "Historical Context: Text-to-image models emerged in the mid-2010s and advanced rapidly in the 2020s.",
@@ -16,7 +16,7 @@ const slidesData = [
     },
     {
         title: "The Basics: How Do They Work?",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/How Do They Work__05.png",
         content: [
             "How it Works: Input a text prompt, and the model generates a visual representation.",
             "Architecture: These models utilize transformer-based architectures and CNNs for image generation.",
@@ -31,7 +31,7 @@ const slidesData = [
     },
     {
         title: "Capabilities and Applications",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Understanding the Technology_08.png",
         content: [
             "Vast Applications Toolbox: These models are used for generating art, marketing visuals, product design, and even interactive environments.",
             "Real-World Applications: Midjourney is often used for video game concept art, while Stable Diffusion is employed in digital marketing campaigns.",
@@ -46,7 +46,7 @@ const slidesData = [
     },
     {
         title: "Prompting—The Starting Point",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/The Starting Point_12.png",
         content: [
             "Crafting Prompts: The specificity and creativity of the text prompt are essential in generating high-quality, desired results.",
             "Iterative Refinement: Prompts can be iteratively adjusted based on the initial output to fine-tune the model's response.",
@@ -60,7 +60,7 @@ const slidesData = [
     },
     {
         title: "Questions and Challenges",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Ethical and Philosophical Challenges_16.png",
         content: [
             "Ownership: Who holds the rights to AI-generated content? The creator of the prompt or the AI developer?",
             "Value of AI Art: The auction of Edmond de Belamy raised questions about the intrinsic value of AI-generated art.",
@@ -73,7 +73,7 @@ const slidesData = [
     },
     {
         title: "Interaction and Feedback Loops in AI Creation",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Interaction and Feedback Loops in AI Creation_19.png",
         content: [
             "Promptography: How artists collaborate with AI through iterative feedback loops to refine visual outputs.",
             "Controversies: The Flamingone Incident, where a real photograph won an AI art contest, blurring lines between human and machine creation.",
@@ -86,7 +86,7 @@ const slidesData = [
     },
     {
         title: "Ethical and Cultural Considerations",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Ethical and Cultural Considerations_22.png",
         content: [
             "Legal Battles: Stephen Thaler’s case for AI copyright marks the growing debate over AI-generated works' intellectual property rights.",
             "Cultural Impact: Jason Allen’s controversial AI win at the Colorado State Fair sparked debates about the value and legitimacy of human artistry versus machine-assisted creativity.",
@@ -98,7 +98,7 @@ const slidesData = [
     },
     {
         title: "Who Gets to Be the Artist?",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Who Gets to Be the Artist_25.png",
         content: [
             "Redefining Authorship: The Zarya of the Dawn case asked whether AI-generated content could be copyrighted.",
             "Non-Human Creators: The Monkey Selfie case challenged the idea of authorship by non-humans, raising new questions in the AI era.",
@@ -112,7 +112,7 @@ const slidesData = [
     },
     {
         title: "Practical Use—Incorporating AI in Design",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Incorporating AI in Design_29.png",
         content: [
             "Corporate AI Use: Companies are using Midjourney and similar platforms to rapidly iterate and refine their visual identities and logos.",
             "Democratizing Design: AI tools lower the barrier for creativity by making high-level design capabilities accessible to non-experts.",
@@ -124,7 +124,7 @@ const slidesData = [
     },
     {
         title: "AI in Politics and Society—Transparency and Trust",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Transparency and Trust_32.png",
         content: [
             "Transparency in AI-Generated Works: The No AI Art Movement advocates for clearer disclosure of AI-created content to preserve human creativity.",
             "Resistance in Creative Communities: Platforms like Procreate refuse to integrate AI to preserve traditional, human-centric creative practices.",
@@ -138,7 +138,7 @@ const slidesData = [
     },
     {
         title: "Case Study—AI Training and Dataset Use",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/AI Training and Dataset Use_36.png",
         content: [
             "Open Source Strategy: Stable Diffusion’s open-source approach has allowed widespread use and customization of AI tools for creative projects.",
             "Legal Risks: The Getty Images v. Stability AI case highlights the issues of using large-scale datasets without permission, raising questions about intellectual property rights and licensing in AI training.",
@@ -151,7 +151,7 @@ const slidesData = [
     },
     {
         title: "Deepfakes, AI-Generated Pornography, and OPEN-RAIL Licenses—The Future of Regulation",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/The Future of Regulation_39.png",
         content: [
             "Deepfake Concerns: AI-generated images and deepfakes, like the Pope Francis AI-generated image incident, highlight the growing concerns over misinformation and the potential harm caused by AI in political, social, and personal contexts.",
             "Ethical Implications of Deepfake Pornography: The rise of AI-generated pornography poses significant ethical and legal challenges, with non-consensual content being a growing concern worldwide.",
@@ -164,7 +164,7 @@ const slidesData = [
     },
     {
         title: "Questions Raised by Text-to-Image Models",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Who Gets to Be the Artist_27.png",
         content: [
             "Ethical Implications: As text-to-image models gain prominence, concerns about the responsible use of AI-generated content grow.",
             "Cultural Impact: AI models are influencing global art, sparking debates about the preservation of artistic traditions, authenticity, and the democratization of creativity.",
@@ -175,7 +175,7 @@ const slidesData = [
     },
     {
         title: "Choosing the Right Tool",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Ethical and Cultural Considerations_24.png",
         content: [
             "Midjourney: Best known for its creative and highly stylized images, suitable for concept art, branding, and experimental design.",
             "DALL-E: Specializes in photorealistic results with intricate details, making it ideal for both commercial and creative projects.",
@@ -186,7 +186,7 @@ const slidesData = [
     },
     {
         title: "Conclusion: Less is More",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Introduction and Background_01.png",
         content: [
             "Simplicity in Design: As AI-generated art grows, the importance of minimalism becomes more pronounced—balance between creativity and restraint.",
             "Future of AI in Art: AI will continue to redefine boundaries, but traditional methods still play a critical role in preserving the uniqueness of human expression.",
@@ -202,7 +202,7 @@ const artifactsData = [
     {
         "id": "artifact-1",
         "title": "Jason Allen's 'Théâtre D'opéra Spatial' Controversy",
-        "image": "coolradio_Wide_shot_of_the_darkroom_which_feels_like_an_earth_ac6e1775-4a15-47d6-9a8c-103dbeba9ea8_3.png",
+        "image": "IMAGES/Ethical and Cultural Considerations_24.png",
         "description": "In 2022, Jason Allen's AI-generated artwork, 'Théâtre D'opéra Spatial,' won first place in the digital arts category at the Colorado State Fair. Created using Midjourney, the win sparked debates over AI's role in art, leading to new rules requiring AI use disclosure and a U.S. Copyright Office ruling denying copyright protection.",
         "source": "Washington Post, ArtNews",
         "date": "2022",
@@ -226,7 +226,7 @@ const artifactsData = [
     {
         "id": "artifact-2",
         "title": "Edmond de Belamy Auction at Christie's",
-        "image": "/api/placeholder/800/400",
+        "image": "IMAGES/Ethical and Philosophical Challenges_17.png",
         "description": "'Edmond de Belamy,' created by the collective Obvious using GANs, was auctioned at Christie's in 2018 for $432,500. It was the first AI-generated artwork sold at a major auction, sparking debates over AI's role in art, originality, and authorship.",
         "source": "Christie's, ISIS Magazine",
         "date": "2018",
@@ -249,7 +249,7 @@ const artifactsData = [
     {
         "id": "artifact-3",
         "title": "Promptography: AI-Generated Photography",
-        "image": "/api/placeholder/800/400",
+        "image": "IMAGES/Interaction and Feedback Loops in AI Creation_20.png",
         "description": "Promptography involves artists generating images by inputting text prompts into AI tools like DALL-E or Midjourney, then refining the outputs. This new art form challenges traditional photography by creating surreal, dreamlike images that blur the line between photography and digital art.",
         "source": "AI Arts, The Verge",
         "date": "2023-Present",
@@ -272,7 +272,7 @@ const artifactsData = [
     {
         "id": "artifact-4",
         "title": "The Flamingone Incident: Real Photo Wins AI Contest",
-        "image": "/api/placeholder/800/400",
+        "image": "IMAGES/Interaction and Feedback Loops in AI Creation_21.png",
         "description": "At the 1839 Awards, photographer Miles Astray submitted a real photograph titled 'Flamingone' to the AI category, winning third place and the People's Choice award. The image was later disqualified when it was revealed to be human-created, sparking debate on the role of AI in art competitions.",
         "source": "Forbes, Smithsonian Magazine",
         "date": "2024",
@@ -295,7 +295,7 @@ const artifactsData = [
     {
         "id": "artifact-5",
         "title": "Stephen Thaler's Legal Battle for AI Copyright",
-        "image": "coolradio_Wide_shot_of_the_darkroom_which_feels_like_an_earth_ac6e1775-4a15-47d6-9a8c-103dbeba9ea8_3.png",
+        "image": "IMAGES/Ethical and Cultural Considerations_23.png",
         "description": "Stephen Thaler, a computer scientist, has been engaged in a legal battle to secure copyright protection for artworks generated by his AI system, the 'Creativity Machine.' Courts have repeatedly rejected his claims, emphasizing that human authorship is required for copyright eligibility.",
         "source": "Reuters, ArtNet",
         "date": "Ongoing",
@@ -318,7 +318,7 @@ const artifactsData = [
     {
         id: "S_04_A01",
         title: "DALL-E Evolution Overview",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Introduction and Background_02.png",
         description: "DALL-E, developed by OpenAI, is a series of AI models that convert textual descriptions into images. From its initial release to DALL-E 3, the model has continuously improved in terms of resolution, realism, and contextual understanding.",
         source: "OpenAI official documentation and related tutorials.",
         date: "2021-Present",
@@ -340,7 +340,7 @@ const artifactsData = [
     {
         id: "S_04_A02",
         title: "GameNGen and AI-Generated DOOM Simulation",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Understanding the Technology_09.png",
         description: "GameNGen is a project by Google and Tel Aviv University that uses AI to simulate the classic game DOOM without a traditional game engine. The project showcases AI's potential to simulate interactive environments.",
         source: "Google and Tel Aviv University collaborative research.",
         date: "2023",
@@ -362,7 +362,7 @@ const artifactsData = [
     {
         id: "S_04_A03",
         title: "'This Person Does Not Exist' and AI-Generated Faces",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Ethical and Philosophical Challenges_18.png",
         description: "This Person Does Not Exist is a website that generates realistic images of human faces using AI, specifically leveraging StyleGAN. Each image is unique and not of a real person.",
         source: "NVIDIA StyleGAN and related AI research.",
         date: "2019-Present",
@@ -384,7 +384,7 @@ const artifactsData = [
     {
         id: "S_04_A04",
         title: "Artbreeder Overview",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Understanding the Technology_11.png",
         description: "Artbreeder is an AI-powered platform that allows users to create and manipulate images through a collaborative process. Users can create characters, landscapes, and other visual content by mixing different images.",
         source: "Artbreeder official website and community forums.",
         date: "2019-Present",
@@ -406,7 +406,7 @@ const artifactsData = [
     {
         id: "S_04_A05",
         title: "Imagen AI: Advanced Diffusion-Based Model by Google",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Understanding the Technology_10.png",
         description: "Imagen AI is a diffusion-based AI model developed by Google for generating high-quality images from text. It is known for its photorealism and the ability to create complex scenes.",
         source: "Google Research and DeepMind.",
         date: "2022-Present",
@@ -428,7 +428,7 @@ const artifactsData = [
     {
         id: "S_04_A06",
         title: "LAION-5B: The Largest Open Image-Text Dataset",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/How Do They Work__07.png",
         description: "LAION-5B is the largest openly available image-text dataset, containing 5.85 billion image-text pairs. It is designed to support AI research, particularly in training multi-modal models.",
         source: "LAION official documentation and research papers.",
         date: "2022-Present",
@@ -450,7 +450,7 @@ const artifactsData = [
     {
         id: "S_04_A07",
         title: "Stable Diffusion as an AI Brand",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/AI Training and Dataset Use_37.png",
         description: "Stable Diffusion is an AI image generation tool developed by Stability AI. It is a versatile model that can generate high-quality images from text and is available under an open-source license.",
         source: "Stability AI official website and community forums.",
         date: "2022-Present",
@@ -472,7 +472,7 @@ const artifactsData = [
     {
         id: "S_04_A08",
         title: "Flux AI Image Generator Overview",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/The Starting Point_15.png",
         description: "Flux AI Image Generator, developed by Black Forest Labs, is an open-source AI image model known for its enhanced detail, prompt adherence, and advanced composition handling.",
         source: "Black Forest Labs official website and technical documentation.",
         date: "2023-Present",
@@ -494,7 +494,7 @@ const artifactsData = [
     {
         id: "S_04_A09",
         title: "Krea AI Overview",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Transparency and Trust_35.png",
         description: "Krea AI is a creative tool that allows users to generate high-quality visuals tailored to individual styles, concepts, or products. It is known for its ease of use and versatility in both personal and professional settings.",
         source: "Krea AI official website and user community.",
         date: "2022-Present",
@@ -516,7 +516,7 @@ const artifactsData = [
     {
         id: "S_04_A10",
         title: "Ideogram AI Overview",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/The Starting Point_14.png",
         description: "Ideogram AI is a powerful tool for generating high-quality images from text descriptions. It supports multiple styles, from realistic to abstract, and offers features like rapid image creation and customizable color palettes.",
         source: "Ideogram AI official website and product documentation.",
         date: "2023-Present",
@@ -538,7 +538,7 @@ const artifactsData = [
     {
         id: "S_04_A11",
         title: "Midjourney for Company Logo Creation Process",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Incorporating AI in Design_30.png",
         description: "Midjourney is an AI tool that can be effectively used for creating unique and creative company logos. It allows users to generate multiple design concepts quickly and refine them using graphic design software.",
         source: "Midjourney community forums and user tutorials.",
         date: "2022-Present",
@@ -560,7 +560,7 @@ const artifactsData = [
     {
         id: "S_06_A01",
         title: "Midjourney for Logo Creation: An Innovative Approach",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Incorporating AI in Design_31.png",
         description: "Midjourney offers an innovative approach to logo creation, allowing users to explore various design styles quickly. The tool is particularly useful for brainstorming and generating initial concepts.",
         source: "Midjourney official website and design blogs.",
         date: "2022-Present",
@@ -582,7 +582,7 @@ const artifactsData = [
     {
         id: "S_06_A02",
         title: "Common Crawl: Open Data for AI Research",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/How Do They Work__06.png",
         description: "Common Crawl is a nonprofit organization that provides openly accessible web data, supporting AI research and various data-intensive applications. Their datasets are widely used in training large-scale AI models.",
         source: "Common Crawl official website and data archives.",
         date: "2007-Present",
@@ -604,7 +604,7 @@ const artifactsData = [
     {
         id: "S_02_A01",
         title: "The GAN Story: Unplanned Greatness in AI",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Introduction and Background_03.png",
         description: "The development of Generative Adversarial Networks (GANs) by Ian Goodfellow was a serendipitous breakthrough in AI research. GANs are now used in a wide range of applications, from image generation to data synthesis.",
         source: "Interviews with Ian Goodfellow and research publications.",
         date: "2014-Present",
@@ -626,7 +626,7 @@ const artifactsData = [
     {
         id: "S_02_A02",
         title: "Interestingness and Its Role in Innovation",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/The Starting Point_13.png",
         description: "Interestingness is a key concept in innovation, emphasizing the value of exploration and unexpected discoveries. This concept challenges traditional goal-oriented approaches and encourages a more open-ended pursuit of creativity.",
         source: "Why Greatness Cannot Be Planned by Kenneth O. Stanley and Joel Lehman.",
         date: "2015-Present",
@@ -670,7 +670,7 @@ const artifactsData = [
     {
         id: "S_02_A04",
         title: "Harold Cohen and AARON: Pioneering AI Art",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Introduction and Background_04.png",
         description: "Harold Cohen's work with AARON represents a pioneering exploration of AI-generated art. AARON, a program Cohen developed starting in the late 1960s, created artworks autonomously and is considered one of the first examples of AI in the arts.",
         source: "Exhibitions and publications on Harold Cohen's work.",
         date: "1960s-2016",
@@ -714,7 +714,7 @@ const artifactsData = [
     {
         id: "S_10_A01",
         title: "Zarya of the Dawn Case Overview",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Who Gets to Be the Artist_26.png",
         description: "The Zarya of the Dawn case involves a comic book created by Kristina Kashtanova using AI-generated images from Midjourney. The U.S. Copyright Office initially granted copyright protection but later partially canceled the registration, stating that the AI-generated images themselves could not be copyrighted.",
         source: "U.S. Copyright Office rulings and legal analyses.",
         date: "2023",
@@ -736,7 +736,7 @@ const artifactsData = [
     {
         id: "S_10_A02",
         title: "Monkey Selfie Copyright Case",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Who Gets to Be the Artist_27.png",
         description: "The Monkey Selfie case involves a photograph taken by a macaque named Naruto using photographer David Slater's camera. PETA filed a lawsuit on behalf of the monkey, claiming copyright, but the court ruled that animals cannot own copyrights under U.S. law.",
         source: "Court rulings and legal analyses.",
         date: "2015-2018",
@@ -758,7 +758,7 @@ const artifactsData = [
     {
         id: "S_10_A03",
         title: "Andy Warhol Foundation v. Goldsmith Case",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Who Gets to Be the Artist_28.png",
         description: "The Andy Warhol Foundation v. Goldsmith case addressed the issue of fair use in Andy Warhol's silkscreen portraits of Prince. The U.S. Supreme Court ruled that Warhol's use of a photograph by Lynn Goldsmith did not constitute fair use, emphasizing the commercial nature of both works.",
         source: "U.S. Supreme Court ruling and legal commentaries.",
         date: "2023",
@@ -780,7 +780,7 @@ const artifactsData = [
     {
         id: "S_10_A04",
         title: "No AI Art Movement",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Transparency and Trust_33.png",
         description: "The No AI Art movement is a protest by artists against the use of AI-generated artwork on platforms like ArtStation. The movement highlights concerns over copyright infringement, the devaluation of artistic skills, and the ethical implications of AI in the arts.",
         source: "ArtStation protests and artist statements.",
         date: "2022-Present",
@@ -802,7 +802,7 @@ const artifactsData = [
     {
         id: "S_10_A05",
         title: "Procreate's Stance Against AI",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/Transparency and Trust_34.png",
         description: "Procreate, a popular digital illustration app, has publicly stated that it will not incorporate generative AI into its products. The company emphasizes the importance of preserving the 'humanity' in creative work and has positioned itself against the trend of integrating AI in digital art tools.",
         source: "Procreate's official statements and media coverage.",
         date: "2023",
@@ -824,7 +824,7 @@ const artifactsData = [
     {
         id: "S_10_A06",
         title: "Getty Images v. Stability AI",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/AI Training and Dataset Use_38.png",
         description: "Getty Images filed a lawsuit against Stability AI, the creators of Stable Diffusion, alleging that Stability AI used over 12 million images from Getty's database without permission to train its AI models. The case raises significant questions about copyright and AI training practices.",
         source: "Legal filings and media reports.",
         date: "2023",
@@ -846,7 +846,7 @@ const artifactsData = [
     {
         id: "S_08_A01",
         title: "Pope Francis AI-Generated Image Incident",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/The Future of Regulation_40.png",
         description: "In March 2023, a viral AI-generated image of Pope Francis wearing a white puffy Balenciaga jacket circulated widely online. The image, created using Midjourney, was initially mistaken for a real photo, raising concerns about the potential for AI-generated misinformation.",
         source: "News reports and expert analyses.",
         date: "2023",
@@ -868,7 +868,7 @@ const artifactsData = [
     {
         id: "S_08_A02",
         title: "Flux AI's Cultural Impact",
-        image: "/api/placeholder/800/400",
+        image: "IMAGES/The Future of Regulation_41.png",
         description: "Flux AI has made significant cultural impacts by advancing the capabilities of AI-generated imagery, influencing various creative industries, including digital art, film, and advertising. Its ability to handle complex prompts and generate diverse artistic styles has set a new standard for AI creativity.",
         source: "Cultural studies and industry reports.",
         date: "2023-Present",
