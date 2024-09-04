@@ -1,23 +1,208 @@
 const slidesData = [
     {
-        title: "Stable Diffusion: A Comprehensive AI Image Generation Tool",
+        title: "What Are Text-to-Image Models?",
         image: "/api/placeholder/800/400",
         content: [
-            "Developed by Stability AI",
-            "Leading AI model for high-quality image generation",
-            "Versatile and accessible",
-            "Creates photorealistic images and abstract art"
+            "Definition: AI systems that convert textual descriptions into visual representations.",
+            "Historical Context: Text-to-image models emerged in the mid-2010s and advanced rapidly in the 2020s.",
+            "Key Models: DALL-E, Midjourney, Stable Diffusion, and Imagen played significant roles in shaping this field.",
+            "Impact on Creativity: These models have redefined creative processes by offering non-experts the ability to generate detailed visuals with ease.",
+            "Artifact Overview:",
+            "S_04_A01: DALL-E Evolution - Key transformation in creative AI.",
+            "S_02_A01: GAN Story - How generative models laid the groundwork.",
+            "S_02_A04: Harold Cohen’s AARON - Pioneering AI-generated creativity."
         ],
-        artifactId: "stable-diffusion"
+        artifactId: ["S_04_A01", "S_02_A01", "S_02_A04"]
     },
-    // Add more slides here...
+    {
+        title: "The Basics: How Do They Work?",
+        image: "/api/placeholder/800/400",
+        content: [
+            "How it Works: Input a text prompt, and the model generates a visual representation.",
+            "Architecture: These models utilize transformer-based architectures and CNNs for image generation.",
+            "Training Process: Models are trained on large datasets of image-text pairs, such as LAION-5B, which consists of over 5 billion image-text pairs.",
+            "Diffusion Models: Used in models like DALL-E 2, diffusion models refine images iteratively starting from random noise.",
+            "Challenges in Training: Complexities of training AI systems with such vast datasets involve resource-intensive processes.",
+            "Artifact Overview:",
+            "S_06_A02: Common Crawl - Open Data used for training AI.",
+            "S_04_A06: LAION-5B - How the largest image-text dataset shapes AI models."
+        ],
+        artifactId: ["S_06_A02", "S_04_A06"]
+    },
+    {
+        title: "Capabilities and Applications",
+        image: "/api/placeholder/800/400",
+        content: [
+            "Vast Applications Toolbox: These models are used for generating art, marketing visuals, product design, and even interactive environments.",
+            "Real-World Applications: Midjourney is often used for video game concept art, while Stable Diffusion is employed in digital marketing campaigns.",
+            "Enhanced Prototyping: AI streamlines rapid prototyping, allowing creators to explore numerous variations quickly.",
+            "Collaborative Creativity: Platforms like Artbreeder foster user-AI collaboration to create hybrid works.",
+            "Artifact Overview:",
+            "S_04_A02: GameNGen - AI's role in generating interactive environments (e.g., DOOM simulation).",
+            "S_04_A05: Imagen AI - Diffusion-based model pushing photorealism.",
+            "S_04_A04: Artbreeder - Co-creating with AI, blending human and machine creativity."
+        ],
+        artifactId: ["S_04_A02", "S_04_A05", "S_04_A04"]
+    },
+    {
+        title: "Prompting—The Starting Point",
+        image: "/api/placeholder/800/400",
+        content: [
+            "Crafting Prompts: The specificity and creativity of the text prompt are essential in generating high-quality, desired results.",
+            "Iterative Refinement: Prompts can be iteratively adjusted based on the initial output to fine-tune the model's response.",
+            "Interestingness: Exploring how AI models push boundaries beyond efficiency to generate novelty and creative exploration.",
+            "Artifact Overview:",
+            "S_02_A02: Interestingness and its Role in Innovation - How AI balances exploration and optimization.",
+            "S_04_A10: Ideogram AI - Achieving creative nuances through carefully crafted prompts.",
+            "S_04_A08: Flux AI - Refining prompts for marketing and design outputs."
+        ],
+        artifactId: ["S_02_A02", "S_04_A10", "S_04_A08"]
+    },
+    {
+        title: "Questions and Challenges",
+        image: "/api/placeholder/800/400",
+        content: [
+            "Ownership: Who holds the rights to AI-generated content? The creator of the prompt or the AI developer?",
+            "Value of AI Art: The auction of Edmond de Belamy raised questions about the intrinsic value of AI-generated art.",
+            "Ethical Concerns: The creation of lifelike human faces raises issues of privacy, identity, and potential misuse in AI-driven identity forgery.",
+            "Artifact Overview:",
+            "Artifact-2: Edmond de Belamy Auction at Christie’s - The first AI-generated artwork to be sold at auction.",
+            "S_04_A03: 'This Person Does Not Exist' - AI-generated faces and the risks of identity forgery."
+        ],
+        artifactId: ["artifact-2", "S_04_A03"]
+    },
+    {
+        title: "Interaction and Feedback Loops in AI Creation",
+        image: "/api/placeholder/800/400",
+        content: [
+            "Promptography: How artists collaborate with AI through iterative feedback loops to refine visual outputs.",
+            "Controversies: The Flamingone Incident, where a real photograph won an AI art contest, blurring lines between human and machine creation.",
+            "Real-Time Adjustments: Platforms allow users to provide real-time feedback to guide and refine outputs.",
+            "Artifact Overview:",
+            "Artifact-3: Promptography - How AI can iterate and refine artistic output.",
+            "Artifact-4: The Flamingone Incident - Ethical dilemmas in distinguishing between human and AI-generated content."
+        ],
+        artifactId: ["artifact-3", "artifact-4"]
+    },
+    {
+        title: "Ethical and Cultural Considerations",
+        image: "/api/placeholder/800/400",
+        content: [
+            "Legal Battles: Stephen Thaler’s case for AI copyright marks the growing debate over AI-generated works' intellectual property rights.",
+            "Cultural Impact: Jason Allen’s controversial AI win at the Colorado State Fair sparked debates about the value and legitimacy of human artistry versus machine-assisted creativity.",
+            "Artifact Overview:",
+            "Artifact-5: Stephen Thaler’s Legal Battle for AI Copyright - Legal frameworks on AI-generated ownership.",
+            "Artifact-1: Jason Allen's Théâtre D'opéra Spatial Controversy - AI art's contentious role in human creativity."
+        ],
+        artifactId: ["artifact-5", "artifact-1"]
+    },
+    {
+        title: "Who Gets to Be the Artist?",
+        image: "/api/placeholder/800/400",
+        content: [
+            "Redefining Authorship: The Zarya of the Dawn case asked whether AI-generated content could be copyrighted.",
+            "Non-Human Creators: The Monkey Selfie case challenged the idea of authorship by non-humans, raising new questions in the AI era.",
+            "Fair Use: The Andy Warhol Foundation v. Goldsmith case pushes the boundaries of fair use when AI reinterprets existing works.",
+            "Artifact Overview:",
+            "S_10_A01: Zarya of the Dawn - AI copyright challenges.",
+            "S_10_A02: Monkey Selfie Copyright Case - Exploring non-human authorship.",
+            "S_10_A03: Andy Warhol Foundation v. Goldsmith - Reinterpretation of art in the AI age."
+        ],
+        artifactId: ["S_10_A01", "S_10_A02", "S_10_A03"]
+    },
+    {
+        title: "Practical Use—Incorporating AI in Design",
+        image: "/api/placeholder/800/400",
+        content: [
+            "Corporate AI Use: Companies are using Midjourney and similar platforms to rapidly iterate and refine their visual identities and logos.",
+            "Democratizing Design: AI tools lower the barrier for creativity by making high-level design capabilities accessible to non-experts.",
+            "Artifact Overview:",
+            "S_04_A11: Midjourney for Company Logo Creation Process - AI in branding and design.",
+            "S_06_A01: Midjourney for Logo Creation: An Innovative Approach - Practical case in branding innovation."
+        ],
+        artifactId: ["S_04_A11", "S_06_A01"]
+    },
+    {
+        title: "AI in Politics and Society—Transparency and Trust",
+        image: "/api/placeholder/800/400",
+        content: [
+            "Transparency in AI-Generated Works: The No AI Art Movement advocates for clearer disclosure of AI-created content to preserve human creativity.",
+            "Resistance in Creative Communities: Platforms like Procreate refuse to integrate AI to preserve traditional, human-centric creative practices.",
+            "AI-Generated Personalization: Krea AI enables personalized, AI-generated content, which challenges traditional creative industries.",
+            "Artifact Overview:",
+            "S_10_A04: No AI Art Movement - Advocating transparency in AI-generated works.",
+            "S_10_A05: Procreate’s Stance Against AI - Prioritizing human creativity.",
+            "S_04_A09: Krea AI Overview - AI-driven personalization in creative industries."
+        ],
+        artifactId: ["S_10_A04", "S_10_A05", "S_04_A09"]
+    },
+    {
+        title: "Case Study—AI Training and Dataset Use",
+        image: "/api/placeholder/800/400",
+        content: [
+            "Open Source Strategy: Stable Diffusion’s open-source approach has allowed widespread use and customization of AI tools for creative projects.",
+            "Legal Risks: The Getty Images v. Stability AI case highlights the issues of using large-scale datasets without permission, raising questions about intellectual property rights and licensing in AI training.",
+            "Importance of Diverse Datasets: LAION-5B, one of the largest datasets, plays a critical role in ensuring that AI models are versatile and accurate, though it also presents challenges regarding the ethical use of large datasets.",
+            "Artifact Overview:",
+            "S_04_A07: Stable Diffusion as an AI Brand - How an open-source model reshaped AI creativity.",
+            "S_10_A06: Getty Images v. Stability AI - Legal battles over the unauthorized use of images in AI training."
+        ],
+        artifactId: ["S_04_A07", "S_10_A06"]
+    },
+    {
+        title: "Deepfakes, AI-Generated Pornography, and OPEN-RAIL Licenses—The Future of Regulation",
+        image: "/api/placeholder/800/400",
+        content: [
+            "Deepfake Concerns: AI-generated images and deepfakes, like the Pope Francis AI-generated image incident, highlight the growing concerns over misinformation and the potential harm caused by AI in political, social, and personal contexts.",
+            "Ethical Implications of Deepfake Pornography: The rise of AI-generated pornography poses significant ethical and legal challenges, with non-consensual content being a growing concern worldwide.",
+            "The Role of OPEN-RAIL Licenses: OPEN-RAIL licenses represent a new framework for ethical AI use, establishing guidelines for responsible AI development and fostering a balance between innovation and accountability.",
+            "Artifact Overview:",
+            "S_08_A01: Pope Francis AI-Generated Image Incident - Misinformation and the ethical need for AI-generated content disclosure.",
+            "S_08_A02: Flux AI’s Cultural Impact - How AI is influencing societal norms and challenging regulatory frameworks."
+        ],
+        artifactId: ["S_08_A01", "S_08_A02"]
+    },
+    {
+        title: "Questions Raised by Text-to-Image Models",
+        image: "/api/placeholder/800/400",
+        content: [
+            "Ethical Implications: As text-to-image models gain prominence, concerns about the responsible use of AI-generated content grow.",
+            "Cultural Impact: AI models are influencing global art, sparking debates about the preservation of artistic traditions, authenticity, and the democratization of creativity.",
+            "AI in the Global Art Market: With AI-generated works auctioned at prestigious venues, the role of AI in reshaping value systems within the art world is becoming central.",
+            "How will these technologies redefine ownership, creativity, and artistic authorship in the coming years?"
+        ],
+        artifactId: ["S_10_A01", "S_10_A02"]
+    },
+    {
+        title: "Choosing the Right Tool",
+        image: "/api/placeholder/800/400",
+        content: [
+            "Midjourney: Best known for its creative and highly stylized images, suitable for concept art, branding, and experimental design.",
+            "DALL-E: Specializes in photorealistic results with intricate details, making it ideal for both commercial and creative projects.",
+            "Stable Diffusion: An open-source model, prized for its adaptability and customization, widely used in both creative experimentation and practical applications.",
+            "Selecting the right tool depends on the specific project requirements—artistic flair, realism, or customizability."
+        ],
+        artifactId: ["S_04_A01", "S_04_A07"]
+    },
+    {
+        title: "Conclusion: Less is More",
+        image: "/api/placeholder/800/400",
+        content: [
+            "Simplicity in Design: As AI-generated art grows, the importance of minimalism becomes more pronounced—balance between creativity and restraint.",
+            "Future of AI in Art: AI will continue to redefine boundaries, but traditional methods still play a critical role in preserving the uniqueness of human expression.",
+            "Provocation: Will AI ever fully replace traditional art forms, or will it enhance them?",
+            "Balancing Act: The challenge ahead is finding harmony between the efficiency of AI and the soul of human creativity."
+        ],
+        artifactId: ["S_08_A02", "S_04_A05"]
+    }
 ];
+
 //ARTIFACTS GO HERE
 const artifactsData = [
     {
         "id": "artifact-1",
         "title": "Jason Allen's 'Théâtre D'opéra Spatial' Controversy",
-        "image": "/api/placeholder/800/400",
+        "image": "https://github.com/hartswf0/Text-to-Image-Models-Presentation-/blob/main/A_wide_shot_of_red_clay_slowly_oozing_out_of_a_headph_72373db4-9ffc-42c3-9012-5e44d651367b.png",
         "description": "In 2022, Jason Allen's AI-generated artwork, 'Théâtre D'opéra Spatial,' won first place in the digital arts category at the Colorado State Fair. Created using Midjourney, the win sparked debates over AI's role in art, leading to new rules requiring AI use disclosure and a U.S. Copyright Office ruling denying copyright protection.",
         "source": "Washington Post, ArtNews",
         "date": "2022",
@@ -129,8 +314,7 @@ const artifactsData = [
             { "text": "ArtNet", "url": "https://news.artnet.com/art-world/court-shot-down-ai-art-copyright-again-2352452" },
             { "text": "IPWatchdog", "url": "https://ipwatchdog.com/2024/04/15/thaler-copyright-office-fight-human-authorship-requirement-ai-created-artwork/id=175316/" }
         ]
-    }
-
+    },
     {
         id: "S_04_A01",
         title: "DALL-E Evolution Overview",
@@ -527,8 +711,6 @@ const artifactsData = [
             { text: "OpenCV Blog", url: "https://opencv.org/blog/stable-diffusion-3-image-generator/" }
         ]
     },
-    // Add more artifacts here...
-
     {
         id: "S_10_A01",
         title: "Zarya of the Dawn Case Overview",
