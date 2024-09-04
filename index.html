@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Image Models Presentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h2>Presentation Outline</h2>
+        <ul id="slideNav"></ul>
+    </nav>
+    <main>
+        <div id="slideContainer" class="slide-container"></div>
+        <div class="navigation">
+            <button id="prevBtn" onclick="changeSlide(-1)">Previous</button>
+            <span id="slideCounter"></span>
+            <button id="nextBtn" onclick="changeSlide(1)">Next</button>
+        </div>
+    </main>
+    <div id="modal" class="modal">
+        <div class="modal-content" id="modalContent"></div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
