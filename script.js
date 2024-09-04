@@ -33,9 +33,9 @@ function renderSlide() {
                 const artifact = artifactsData.find(a => a.id === id);
                 const buttonName = artifact.title.split(':')[0].trim();
                 return `
-                    <div class="artifact-card">
+                    <div class="artifact-card" onclick="toggleArtifactName(this)" data-artifact-id="${id}">
                         <img src="${artifact.image}" alt="${buttonName}" class="artifact-image">
-                        <button class="artifact-button" onclick="openModal('${id}')">${buttonName}</button>
+                        <div class="artifact-name">${buttonName}</div>
                     </div>
                 `;
             }).join('')}
@@ -45,6 +45,17 @@ function renderSlide() {
     document.getElementById('slideCounter').textContent = `Slide ${currentSlideIndex + 1} of ${slidesData.length}`;
     updateNavButtons();
     updateSideMenu();
+}
+
+// Function to toggle artifact name visibility and handle modal opening
+function toggleArtifactName(card) {
+    if (card.classList.contains('show-name')) {
+        // If name is already shown, open the modal
+        openModal(card.dataset.artifactId);
+    } else {
+        // First click: show the name
+        card.classList.add('show-name');
+    }
 }
 
 // Function to update the side menu
@@ -71,6 +82,9 @@ function updateSideMenu() {
 
 // Function to open the modal and display an artifact
 function openModal(artifactId) {
+    const cards = document.querySelectorAll('.artifact-card');
+    cards.forEach(card => card.classList.remove('show-name'));
+    
     currentArtifactIndex = artifactsData.findIndex(a => a.id === artifactId);
     renderArtifact();
     document.getElementById('modal').style.display = 'flex';

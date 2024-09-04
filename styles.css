@@ -279,7 +279,7 @@ button:disabled {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: flex-start;  /* Align to the left */
 }
 
 .artifact-card {
@@ -287,6 +287,8 @@ button:disabled {
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
+    cursor: pointer;
+    position: relative;
 }
 
 .artifact-image {
@@ -295,16 +297,18 @@ button:disabled {
     object-fit: cover;
 }
 
-.artifact-button {
-    width: 100%;
+.artifact-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
-    background-color: #ff9900; /* Orange color to match the side */
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
 }
 
-.artifact-button:hover {
-    background-color: #e68a00; /* Slightly darker orange for hover state */
+.artifact-card.show-name .artifact-name {
+    transform: translateY(0);
 }
